@@ -1,0 +1,196 @@
+body {
+  margin: 10px;
+}
+header {
+  margin-left: 4%;
+}
+main {
+  width: 55%;
+  display: inline-block;
+  position: relative;
+  margin-left: 13%;
+  margin-right: 0;
+}
+#blog-content {
+  width: 95%;
+  margin-left: 20px;
+}
+
+article img {
+  width: 95%;
+}
+#heading {
+  width: 100%;
+  margin-left: -100px;
+  font-size: xx-large;
+}
+
+#header-image {
+  width: 100%;
+}
+/*------------- aside ---------------*/
+.aside-down {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  margin: 4% 0% 8% 8%;
+}
+.widget {
+  border-top: 4px solid black;
+}
+#subscribe-form {
+  margin: auto;
+}
+#search {
+  margin: 30px -5px 50px 0px;
+  padding-left: 8px;
+  font-size: large;
+  display: inline-block;
+  width: 85%;
+}
+#search-button {
+  background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 4px;
+  border-radius: 2px;
+  left: -20px;
+  display: inline-block;
+  background-color: black;
+  height: 26px;
+  width: 20px;
+}
+
+#subscription li a {
+  margin-bottom: 5px;
+  line-height: 25px;
+  /* color: #dc6520; */
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+#subscription li {
+  margin-left: -7px;
+}
+
+.widget input {
+  display: block;
+  background-color: #f9f4f4;
+  margin-bottom: 15px;
+  margin-top: 7px;
+  padding: 2px;
+  color: #000000;
+  font-size: 1.2rem;
+  text-align: top;
+  border-radius: 4px;
+}
+.side a {
+  color: #dc6520;
+}
+.side a:hover {
+  color: #000000;
+}
+
+button[type="submit"] {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button[type="submit"]:hover {
+  background-color: rgb(246, 106, 56);
+}
+.widget-title {
+  font-size: 1.5rem;
+}
+
+/*------------------- Author Aside--------------- */
+#author {
+  position: absolute;
+  left: -110px;
+
+  display: inline-block;
+  font-weight: 400;
+}
+#author a {
+  text-decoration: none;
+  color: slategray;
+}
+#author a:hover {
+  text-decoration: underline;
+  color: rgba(206, 99, 12, 0.929);
+}
+#author img {
+  margin-bottom: 15px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+/*-----social-----*/
+
+#social {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  line-height: 1;
+}
+
+#social .social-btn {
+  display: block;
+  padding: 14px 13px;
+  color: #ffffff;
+}
+
+#social .social-img {
+  width: 19px;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#facebook:hover {
+  background-color: #2d4373;
+}
+
+#linkedin {
+  background-color: #0077b5;
+}
+
+#linkedin:hover {
+  background-color: #00121c;
+}
+
+#twitter {
+  background-color: #83c3f3;
+}
+
+#twitter:hover {
+  background-color: #55acee;
+}
+
+#gmail {
+  background-color: #dd4b39;
+}
+
+#gmail:hover {
+  background-color: #c23321;
+}
+
+#whatsapp {
+  background-color: #6ba92f;
+}
+
+#whatsapp:hover {
+  background-color: #528124;
+}
+
+#mail {
+  background-color: #ed4926;
+}
+
+#mail:hover {
+  background-color: #cf3311;
+}
